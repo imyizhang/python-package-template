@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pypackage"
+version = "0.0.1"
+description = "Create your Python Package in seconds"
+authors = ["Yi Zhang <yizhang.dev@gmail.com>"]
+license = "BSD-3-Clause"
+readme = "README.md"
+homepage = "https://pypi.org/project/pypackage"
+repository = "https://github.com/imyizhang/pypackage"
+documentation = "https://github.com/imyizhang/pypackage#documentation"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
